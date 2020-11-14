@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="13" />
+    <bytecodeTargetLevel target="13">
+      <module name="My_Application.common.commonMain" target="1.8" />
+      <module name="My_Application.common.commonTest" target="1.8" />
+      <module name="My_Application.common.desktopMain" target="1.8" />
+      <module name="My_Application.common.desktopTest" target="1.8" />
+      <module name="My_Application.desktop.commonMain" target="1.8" />
+      <module name="My_Application.desktop.commonTest" target="1.8" />
+      <module name="My_Application.desktop.jvmMain" target="1.8" />
+      <module name="My_Application.desktop.jvmTest" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

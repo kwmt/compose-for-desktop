@@ -9,12 +9,11 @@ fun App() {
 
     MaterialTheme {
         Button(onClick = {
-//            text = "Hello, ${getPlatformName()}"
-            text = "Hello,}"
+            text = "Hello, ${getPlatformName()}"
         }) {
             Text(text)
         }
     }
 }
 
-//expect fun getPlatformName(): String
+expect fun getPlatformName(): String
